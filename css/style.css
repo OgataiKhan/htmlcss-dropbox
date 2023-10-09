@@ -12,12 +12,56 @@ RESET
 
 /* 
 ********
+DEBUG
+********
+*/
+
+/* #region */
+
+.debug header nav {
+    background-color: green;
+}
+
+.debug .jumbotron {
+    height: 200px;
+    background-color: orange;
+}
+
+.debug .logo-box {
+    background-color: red;
+}
+
+.debug .navbar-links {
+    background-color: violet;
+}
+
+.debug .start-button-box {
+    background-color: yellow;
+}
+
+.debug header nav .navbar-links ul li {
+    border: 1px solid red;
+}
+
+/* #endregion */
+
+/* 
+********
 TYPOGRAPHY
 ********
 */
 
 /* #region */
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
 
 /* #endregion */
 
@@ -29,8 +73,26 @@ COMMON
 
 /* #region */
 
-body {
-    font-family: 'Open Sans', sans-serif;
+:root {
+    --details-main: #0061ff;
+    --details-secondary: #ffffff;
+    --bg-main: #ffffff;
+    --bg-secondary: #b4d0e7;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn {
+    all: unset;
+    background-color: var(--details-main);
+    padding: 11px 17px;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
 }
 
 /* #endregion */
@@ -42,6 +104,45 @@ HEADER
 */
 
 /* #region */
+
+/* Navbar */
+
+header nav {
+    height: 80px;
+    padding: 0 20px 0;
+}
+
+header nav .logo-box,
+header nav .start-button-box,
+header nav .navbar-links ul li {
+    align-items: center;
+}
+
+header nav .navbar-links {
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+header nav .navbar-links ul {
+    gap: 42px;
+}
+
+header nav .navbar-links ul li {
+    height: 80px;
+}
+
+header nav .logo-box {
+    margin-right: 40px;
+}
+
+header nav .start-button-box {
+    margin-left: 20px;
+}
+
+
+/* Jumbotron */
+
+
 
 /* #endregion */
 
