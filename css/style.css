@@ -95,7 +95,7 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 36px;
 }
 
 h3 {
@@ -453,6 +453,79 @@ main .section-businessinfo .plan-box .feat img {
 
 main .section-businessinfo .plan-box .feat h3 {
     margin-bottom: 40px;
+}
+
+main .section-businessinfo {
+    margin-bottom: 215px;
+}
+
+/* Section: Dropbox partner companies */
+
+main .section-partnercompanies h2 {
+    max-width: 60%;
+    margin-bottom: 55px;
+}
+
+main .section-partnercompanies .container-small {
+    margin-bottom: 150px;
+}
+
+main .section-partnercompanies .logo-banner {
+    justify-content: space-between;
+}
+
+main .section-partnercompanies .logo-banner .company-logos {
+    width: 30vw;
+    height: 30vw;
+    flex-wrap: wrap;
+}
+
+main .section-partnercompanies .logo-banner .company-logos .logo-square {
+    width: 50%;
+    height: 50%;
+}
+
+main .section-partnercompanies .logo-banner .company-logos .logo-square {
+    justify-content: center;
+    align-items: center;
+}
+
+main .section-partnercompanies .logo-banner .company-logos .logo-square img {
+    width: 50%;
+    filter: invert(1);
+}
+
+main .section-partnercompanies .logo-banner .company-logos .logo-square.l-one {
+    background-color: #a2d39b;
+    border: 0.8vw solid #d1e9cd;
+}
+
+main .section-partnercompanies .logo-banner .company-logos .logo-square.l-two {
+    background-color: #61082b;
+}
+
+main .section-partnercompanies .logo-banner .company-logos .logo-square.l-three {
+    background-color: #0093ce;
+}
+
+main .section-partnercompanies .logo-banner .company-logos .logo-square.l-four {
+    background-color: #ff1c1c;
+}
+
+main .section-partnercompanies .logo-banner .company-logos .logo-square.l-five {
+    background-color: #d5001f;
+}
+
+main .section-partnercompanies .logo-banner .company-logos .logo-square.l-six {
+    background-color: #b4d0e7;
+}
+
+main .section-partnercompanies .logo-banner .company-logos .logo-square.l-seven {
+    background-color: #0d2481;
+}
+
+main .section-partnercompanies .logo-banner .company-logos .logo-square.l-eight {
+    background-color: #ffd830;
 }
 
 /* #endregion */
