@@ -155,6 +155,8 @@ COMMON
 
 .btn.wide {
     padding: 11px 36px;
+    flex-grow: 1;
+    text-align: center;
 }
 
 ul {
