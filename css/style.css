@@ -122,6 +122,10 @@ main .section-plans .plan-box .plan .plan-content .features .list-icon {
     font-size: 14px;
 }
 
+main .section-freetrial h2 {
+    color: #61082b;
+}
+
 /* #endregion */
 
 /* 
@@ -159,6 +163,9 @@ COMMON
 .btn.secondary {
     background-color: var(--details-secondary);
     color: #000000;
+}
+
+.btn.secondary.border {
     border: 1px solid #000000;
 }
 
@@ -558,6 +565,26 @@ main .section-partnercompanies .logo-banner .featured-company hr {
 
 main .section-partnercompanies .logo-banner .featured-company p {
     margin-bottom: 56px;
+}
+
+/* Section: Free trial */
+
+main .section-freetrial {
+    background-color: var(--bg-secondary);
+}
+
+main .section-freetrial > div {
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 130px 0;
+}
+
+main .section-freetrial h2 {
+    max-width: 50%;
+}
+
+main .section-freetrial .btn {
+    max-width: 20%;
 }
 
 /* #endregion */
