@@ -65,6 +65,10 @@ DEBUG
     border: 1px solid green;
 } */
 
+/* .debug .featured-company {
+    background-color: orange;
+} */
+
 /* #endregion */
 
 /* 
@@ -180,6 +184,11 @@ ul {
 
 img {
     display: block;
+}
+
+main hr {
+    border-color: var(--border);
+    border-style: solid;
 }
 
 /* #endregion */
@@ -387,8 +396,6 @@ main .section-plans .plan-box .plan .plan-content .buy-now {
 }
 
 main .section-plans .plan-box .plan hr {
-    border-color: var(--border);
-    border-style: solid;
     width: 48px;
 }
 
@@ -475,9 +482,10 @@ main .section-partnercompanies .logo-banner {
 }
 
 main .section-partnercompanies .logo-banner .company-logos {
-    width: 30vw;
-    height: 30vw;
+    width: 34vw;
+    height: 34vw;
     flex-wrap: wrap;
+    flex-shrink: 0;
 }
 
 main .section-partnercompanies .logo-banner .company-logos .logo-square {
@@ -526,6 +534,30 @@ main .section-partnercompanies .logo-banner .company-logos .logo-square.l-seven 
 
 main .section-partnercompanies .logo-banner .company-logos .logo-square.l-eight {
     background-color: #ffd830;
+}
+
+main .section-partnercompanies .featured-company {
+    flex-grow: 1;
+    padding: 40px 50px;
+    overflow-y: scroll;
+    height: 34vw;
+}
+
+main .section-partnercompanies .featured-company .featured-logo {
+    width: 55%;
+}
+
+main .section-partnercompanies .featured-company .featured-logo img {
+    width: 100%;
+}
+
+main .section-partnercompanies .logo-banner .featured-company hr {
+    width: 100px;
+    margin: 45px 0;
+}
+
+main .section-partnercompanies .logo-banner .featured-company p {
+    margin-bottom: 56px;
 }
 
 /* #endregion */
