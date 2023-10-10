@@ -141,6 +141,12 @@ COMMON
     color: #ffffff;
 }
 
+.btn.secondary {
+    background-color: var(--details-secondary);
+    color: #000000;
+    border: 1px solid #000000;
+}
+
 .btn.wide {
     padding: 11px 38px;
 }
@@ -282,7 +288,7 @@ main .section-plans h2 {
 }
 
 main .section-plans .radio-box span {
-    margin-right: 50px;
+    margin-right: 51px;
 }
 
 main .section-plans .radio-box .radio {
@@ -396,6 +402,36 @@ main .section-plans .plan-box .plan .plan-content .plan-pro::before {
 main .section-plans .plan-box .plan .plan-content .plan-pro {
     margin-bottom: 28px;
 }
+
+/* Section: Dropbox partners */
+
+main .section-partners {
+    margin-top: 150px;
+}
+
+main .section-partners .partners-image {
+    max-width: 600px;
+    flex-shrink: 0;
+}
+
+main .section-partners .partners-image img {
+    width: 100%;
+}
+
+main .section-partners .partners-text {
+    padding: 59px 88px 0 50px;
+}
+
+main .section-partners .partners-text h3 {
+    margin-bottom: 27px;
+}
+
+main .section-partners .partners-text p {
+    margin-bottom: 35px;
+}
+
+/* Section: Dropbox partners */
+
 
 /* #endregion */
 
