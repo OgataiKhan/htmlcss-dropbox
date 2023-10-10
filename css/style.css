@@ -50,15 +50,15 @@ DEBUG
     height: 2000px;
 }
 
-.debug main .plan {
+/* .debug main .plan {
     background-color: orange;
     height: 800px;
-}
+} */
 
-.debug .plan-header {
+/* .debug .plan-header {
     background-color: pink;
-    /* border: 1px solid green; */
-}
+    border: 1px solid green;
+} */
 
 /* #endregion */
 
@@ -94,7 +94,7 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 main a:visited {
@@ -109,8 +109,8 @@ main .billing-period {
     color: #666666;
 }
 
-main .column {
-    font-size: 12px;
+main .section-plans .plan-box .plan .plan-content .features .list-icon {
+    font-size: 14px;
 }
 
 /* #endregion */
@@ -154,7 +154,7 @@ COMMON
 }
 
 .btn.wide {
-    padding: 11px 38px;
+    padding: 11px 36px;
 }
 
 ul {
@@ -254,15 +254,10 @@ header .jumbotron .jumbo-textbox {
 
 header .jumbotron .jumbo-img-box {
     max-width: 70%;
-    /* position: relative; */
-    /* flex-grow: 1; */
 }
 
 header .jumbotron .jumbo-img-box img {
     width: 100%;
-    /* position: absolute;
-    top: 0;
-    left: 0; */
 }
 
 header .jumbotron .jumbo-textbox .btn {
@@ -270,7 +265,7 @@ header .jumbotron .jumbo-textbox .btn {
 }
 
 header .jumbotron .jumbo-textbox .arrow-down {
-    margin: 80px 0 23px;
+    margin: 100px 0 0;
 }
 
 
@@ -349,6 +344,11 @@ main .section-plans .plan-box .plan .plan-header {
 
 main .section-plans .plan-box .plan .plan-content {
     padding: 39px 30px 26px;
+    flex-direction: column;
+}
+
+main .section-plans .plan-box .plan:last-child .plan-content {
+    flex-direction: row;
 }
 
 main .section-plans .plan-box .plan .plan-content h3 {
@@ -363,30 +363,12 @@ main .section-plans .plan-box .plan .plan-content .billing-period {
     margin-bottom: 40px;
 }
 
-main .section-plans .plan-box .plan .plan-content .features {
-    margin-bottom: 29px;
+main .section-plans .plan-box .plan .plan-content li {
+    margin-bottom: 28px;
 }
 
-
-main .section-plans .plan-box .plan .plan-content .features::before,
-main .section-plans .plan-box .plan .plan-content .plan-pro::before {
-    display: inline-block;
+main .section-plans .plan-box .plan .plan-content .list-icon {
     margin-right: 5px;
-    font-size: 16px;
-    font-family: "FontAwesome";
-    vertical-align: middle;
-}
-
-main .section-plans .plan-box .plan .plan-content .user::before {
-    content: "\f007";
-}
-
-main .section-plans .plan-box .plan .plan-content .storage::before {
-    content: "\f07b";
-}
-
-main .section-plans .plan-box .plan .plan-content .share::before {
-    content: "\f1e0";
 }
 
 main .section-plans .plan-box .plan .plan-content .btn.wide {
@@ -407,13 +389,21 @@ main .section-plans .plan-box .plan .plan-content h4 {
     margin: 55px 0 38px;
 }
 
-main .section-plans .plan-box .plan .plan-content .plan-pro::before {
-    content: "\f00c";
+main .section-plans .plan-box .plan .plan-content .list-icon.color {
     color: var(--details-main);
 }
 
-main .section-plans .plan-box .plan .plan-content .plan-pro {
-    margin-bottom: 28px;
+main .section-plans .plan-box .plan .plan-content p {
+    max-width: 650px;
+    margin-top: 50px;
+}
+
+main .section-plans .plan-box .plan:last-child .plan-content {
+    justify-content: space-between;
+}
+
+main .section-plans .plan-box .plan:last-child .plan-content .btn.wide {
+    margin-top: 0;
 }
 
 /* Section: Dropbox partners */

@@ -20,9 +20,12 @@
     <header>
         <!-- Navbar -->
         <nav class="flex">
+            <!-- Logo -->
             <div class="logo-box flex">
                 <img src="img/logo-small.png" alt="Dropbox logo">
             </div>
+            <!-- /Logo -->
+            <!-- Navbar -->
             <div class="navbar-links flex">
                 <ul class="navbar-left flex">
                     <li class="flex"><a href="#">Perché Dropbox</a></li>
@@ -35,9 +38,12 @@
                     <li class="flex"><a href="#">Accedi</a></li>
                 </ul>
             </div>
+            <!-- /Navbar -->
+            <!-- Start button -->
             <div class="start-button-box flex">
                 <input class="btn" type="button" value="Inizia">
             </div>
+            <!-- /Start button -->
         </nav>
         <!-- /Navbar -->
         <!-- Jumbotron -->
@@ -61,23 +67,38 @@
         <!-- Business plans -->
         <section class="section-plans container-small">
             <h2>Trova il piano business che fa per te</h2>
+            <!-- Radio inputs -->
             <div class="radio-box">
                 <div class="radio r-one"><i class="fa-solid fa-circle"></i></div>
                 <span>Fatturazione mensile</span>
                 <div class="radio r-two"></div>
                 <span>Fatturazione annuale</span>
             </div>
+            <!-- /Radio inputs -->
+            <!-- Plans -->
             <div class="plan-box flex">
                 <div class="column plan">
+                    <!-- Plan Singolo -->
                     <div class="plan-header"><i class="fa-solid fa-user"></i> Singolo</div>
-                    <div class="plan-content">
+                    <div class="plan-content flex">
                         <div>
                             <h3>Professional</h3>
                             <div class="plan-price"><strong>€ 12.00</strong></div>
                             <div class="billing-period">/mese</div>
-                            <div class="features user">1 utente</div>
-                            <div class="features storage">5 TB di spazio di archiviazione sicuro</div>
-                            <div class="features share">Funzioni di produttività premium e condivisione di file semplice e sicura</div>
+                            <ul>
+                                <li class="features flex">
+                                    <div class="list-icon"><i class="fa-solid fa-user"></i></div>
+                                    <div>1 utente</div>
+                                </li>
+                                <li class="features flex">
+                                    <div class="list-icon"><i class="fa-solid fa-folder"></i></div>
+                                    <div>5 TB di spazio di archiviazione sicuro</div>
+                                </li>
+                                <li class="features flex">
+                                    <div class="list-icon"><i class="fa-solid fa-share-nodes"></i></div>
+                                    <div>Funzioni di produttività premium e condivisione di file semplice e sicura</div>
+                                </li>
+                            </ul>
                         </div>
                         <div>
                             <input class="btn wide" type="button" value="Prova gratis per 30 giorni">
@@ -86,15 +107,141 @@
                         </div>
                         <div>
                             <h4>Punti Salienti del piano</h4>
-                            <div class="plan-pro">Invia file fino a 100 GB con Dropbox Transfert</div>
-                            <div class="plan-pro">Cartelle offline su dispositivi mobili</div>
+                            <ul>
+                                <li class="plan-pro flex">
+                                    <div class="list-icon color"><i class="fa-solid fa-check"></i></i></div>
+                                    <div>Invia file fino a 100 GB con Dropbox Transfert</div>
+                                </li>
+                                <li class="plan-pro flex">
+                                    <div class="list-icon color"><i class="fa-solid fa-check"></i></i></div>
+                                    <div>Cartelle offline su dispositivi mobili</div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
+                    <!-- /Plan Singolo -->
                 </div>
+                <div class="column plan">
+                    <!-- Plan Team -->
+                    <div class="plan-header"><i class="fa-solid fa-users"></i> Singolo</div>
+                    <div class="plan-content">
+                        <div>
+                            <h3>Advanced</h3>
+                            <div class="plan-price"><strong>€ 18.00</strong></div>
+                            <div class="billing-period">/utente/mese</div>
+                            <ul>
+                                <li class="features flex">
+                                    <div class="list-icon"><i class="fa-solid fa-users"></i></div>
+                                    <div>3 o più utenti</div>
+                                </li>
+                                <li class="features flex">
+                                    <div class="list-icon"><i class="fa-solid fa-folder"></i></div>
+                                    <div>Tutto lo spazio di cui ha bisogno il tuo team</div>
+                                </li>
+                                <li class="features flex">
+                                    <div class="list-icon"><i class="fa-solid fa-share-nodes"></i></div>
+                                    <div>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <input class="btn wide" type="button" value="Prova gratis per 30 giorni">
+                            <div class="buy-now">oppure <a href="#">acquista ora</a></div>
+                            <hr>
+                        </div>
+                        <div>
+                            <h4>Punti Salienti del piano</h4>
+                            <ul>
+                                <li class="plan-pro flex">
+                                    <div class="list-icon color"><i class="fa-solid fa-check"></i></i></div>
+                                    <div>Nessun limite di spazio per i file</div>
+                                </li>
+                                <li class="plan-pro flex">
+                                    <div class="list-icon color"><i class="fa-solid fa-check"></i></i></div>
+                                    <div>Cartelle offline su dispositivi mobili</div>
+                                </li>
+                                <li class="plan-pro flex">
+                                    <div class="list-icon color"><i class="fa-solid fa-check"></i></i></div>
+                                    <div>Risparmio del 50% rispetto alle iscrizioni singole</div>
+                                </li>
+                                <li class="plan-pro flex">
+                                    <div class="list-icon color"><i class="fa-solid fa-check"></i></i></div>
+                                    <div>Possibilità di inserire nuovi membri del team</div>
+                                </li>
+                                <li class="plan-pro flex">
+                                    <div class="list-icon color"><i class="fa-solid fa-check"></i></i></div>
+                                    <div>Gestione dei permessi in base ai ruoli</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /Plan Team -->
+                </div>
+                <div class="column plan">
+                    <!-- Plan Singolo -->
+                    <div class="plan-header"><i class="fa-solid fa-user"></i> Singolo</div>
+                    <div class="plan-content">
+                        <div>
+                            <h3>Professional</h3>
+                            <div class="plan-price"><strong>€ 12.00</strong></div>
+                            <div class="billing-period">/mese</div>
+                            <ul>
+                                <li class="features flex">
+                                    <div class="list-icon"><i class="fa-solid fa-user"></i></div>
+                                    <div>1 utente</div>
+                                </li>
+                                <li class="features flex">
+                                    <div class="list-icon"><i class="fa-solid fa-folder"></i></div>
+                                    <div>5 TB di spazio di archiviazione sicuro</div>
+                                </li>
+                                <li class="features flex">
+                                    <div class="list-icon"><i class="fa-solid fa-share-nodes"></i></div>
+                                    <div>Funzioni di produttività premium e condivisione di file semplice e sicura</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <input class="btn wide" type="button" value="Prova gratis per 30 giorni">
+                            <div class="buy-now">oppure <a href="#">acquista ora</a></div>
+                            <hr>
+                        </div>
+                        <div>
+                            <h4>Punti Salienti del piano</h4>
+                            <ul>
+                                <li class="plan-pro flex">
+                                    <div class="list-icon color"><i class="fa-solid fa-check"></i></i></div>
+                                    <div>Invia file fino a 100 GB con Dropbox Transfert</div>
+                                </li>
+                                <li class="plan-pro flex">
+                                    <div class="list-icon color"><i class="fa-solid fa-check"></i></i></div>
+                                    <div>Cartelle offline su dispositivi mobili</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /Plan Singolo -->
+                </div>
+                <div class="column plan">
+                    <!-- Plan Singolo -->
+                    <div class="plan-header"><i class="fa-solid fa-building"></i> Team</div>
+                    <div class="plan-content flex">
+                        <div>
+                            <h3>Enterprise</h3>
+                            <div class="plan-price"><strong>Contatta l'ufficio vendite per i prezzi</strong></div>
+                            <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
+                        </div>
+                        <div>
+                            <input class="btn wide" type="button" value="Contatta l'ufficio vendite">
+                        </div>
+                    </div>
+                    <!-- /Plan Singolo -->
+                </div>
+                
+                <!-- <div class="column plan"></div>
                 <div class="column plan"></div>
-                <div class="column plan"></div>
-                <div class="column plan"></div>
+                <div class="column plan"></div> -->
             </div>
+            <!-- /Plans -->
         </section>
         <!-- /Business plans -->
         <!-- Dropbox partners contact-->
