@@ -46,9 +46,14 @@ DEBUG
     background-color: pink;
 } */
 
-.debug main {
+/* .debug .column {
+    background-color: pink;
+    height: 1000px;
+} */
+
+/* .debug main {
     height: 2000px;
-}
+} */
 
 /* .debug main .plan {
     background-color: orange;
@@ -324,12 +329,12 @@ main .section-plans .radio-box {
     margin-bottom: 50px;
 }
 
-main .section-plans .plan-box {
+main .plan-box {
     flex-wrap: wrap;
     gap: 50px;
 }
 
-main .section-plans .plan-box .column {
+main .plan-box .column {
     width: calc((1000px - 100px) / 3);
     flex-grow: 1;
 }
@@ -437,6 +442,18 @@ main .section-partners .partners-text p {
 
 /* Section: Dropbox business info */
 
+main .section-businessinfo h2 {
+    margin-top: 169px;
+    margin-bottom: 90px;
+}
+
+main .section-businessinfo .plan-box .feat img {
+    width: 100%;
+}
+
+main .section-businessinfo .plan-box .feat h3 {
+    margin-bottom: 40px;
+}
 
 /* #endregion */
 
