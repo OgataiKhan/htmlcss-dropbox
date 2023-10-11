@@ -16,60 +16,7 @@ DEBUG
 ********
 */
 
-/* #region */
 
-/* .debug header nav {
-    background-color: green;
-}
-
-.debug .logo-box {
-    background-color: red;
-}
-
-.debug .navbar-links {
-    background-color: violet;
-}
-
-.debug .start-button-box {
-    background-color: yellow;
-}
-
-.debug header nav .navbar-links ul li {
-    border: 1px solid red;
-}
-
-.debug header .jumbotron .jumbo-img-box {
-    background-color: orange;
-} */
-
-/* .debug header .jumbotron.container-big {
-    background-color: pink;
-} */
-
-/* .debug .column {
-    background-color: pink;
-    height: 1000px;
-} */
-
-/* .debug main {
-    height: 2000px;
-} */
-
-/* .debug main .plan {
-    background-color: orange;
-    height: 800px;
-} */
-
-/* .debug .plan-header {
-    background-color: pink;
-    border: 1px solid green;
-} */
-
-/* .debug .featured-company {
-    background-color: orange;
-} */
-
-/* #endregion */
 
 /* 
 ********
@@ -124,6 +71,16 @@ main .section-plans .plan-box .plan .plan-content .features .list-icon {
 
 main .section-freetrial h2 {
     color: #61082b;
+}
+
+footer .footer-top,
+footer .footer-top a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer .footer-bottom {
+    color: #999999;
 }
 
 /* #endregion */
@@ -628,5 +585,35 @@ FOOTER
 */
 
 /* #region */
+
+footer {
+    background-color: #000000;
+    border-bottom: 1px solid white;
+    padding: 109px 0 52px;
+}
+
+footer hr {
+    border-color: #ffffff;
+    border-style: solid;
+    width: 120px;
+}
+
+footer .footer-top .footer-links {
+    margin-bottom: 119px;
+    justify-content: space-between;
+}
+
+footer .footer-top .footer-links h3 {
+    margin-bottom: 42px;
+}
+
+footer .footer-top .footer-links li {
+    margin-bottom: 20px;
+}
+
+footer .footer-bottom .footer-language {
+    margin-top: 53px;
+}
+
 
 /* #endregion */
