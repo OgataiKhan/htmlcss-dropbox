@@ -12,14 +12,6 @@ RESET
 
 /* 
 ********
-DEBUG
-********
-*/
-
-
-
-/* 
-********
 TYPOGRAPHY
 ********
 */
@@ -108,8 +100,13 @@ COMMON
 .btn {
     all: unset;
     background-color: var(--details-main);
-    padding: 11px 17px;
+    padding: 6px 15px;
     color: #ffffff;
+}
+
+.btn.jumbo {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .btn:hover {
