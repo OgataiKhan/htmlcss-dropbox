@@ -20,11 +20,15 @@ TYPOGRAPHY
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 body p {
-    line-height: 18px;
+    line-height: 22px;
+}
+
+body main .plan {
+    font-size: 14px;
 }
 
 header a {
@@ -49,7 +53,7 @@ main a:visited {
     color: #0000FF;
 }
 
-header .arrow-down {
+main .arrow-down {
     font-size: 44px;
 }
 
@@ -124,7 +128,7 @@ COMMON
 }
 
 .btn.wide {
-    padding: 11px 36px;
+    padding: 11px 20px;
     flex-grow: 1;
     text-align: center;
 }
@@ -164,10 +168,6 @@ HEADER
 
 /* Navbar */
 
-header {
-    background-color: var(--bg-secondary);
-}
-
 header nav {
     height: 80px;
     padding: 0 20px 0;
@@ -175,8 +175,7 @@ header nav {
 }
 
 header nav .logo-box,
-header nav .start-button-box,
-header nav .navbar-links ul li {
+header nav .start-button-box {
     align-items: center;
 }
 
@@ -209,40 +208,6 @@ header nav {
     box-shadow: 0px 1px 2px #dedede;
 }
 
-/* Jumbotron */
-
-header .jumbotron {
-    padding-top: 102px;
-    position: relative;
-    top: 80px;
-}
-
-header .jumbotron h1 {
-    margin-bottom: 70px;
-}
-
-header .jumbotron .jumbo-textbox {
-    max-width: 30%;
-    padding-right: 20px;
-}
-
-header .jumbotron .jumbo-img-box {
-    max-width: 70%;
-}
-
-header .jumbotron .jumbo-img-box img {
-    width: 100%;
-}
-
-header .jumbotron .jumbo-textbox .btn {
-    margin: 30px 0;
-}
-
-header .jumbotron .jumbo-textbox .arrow-down {
-    margin: 100px 0 0;
-}
-
-
 /* #endregion */
 
 /* 
@@ -256,6 +221,44 @@ MAIN
 main {
     background-color: var(--bg-main);
 }
+
+/* Section: Jumbotron */
+
+main .jumbo-background {
+    background-color: var(--bg-secondary);
+}
+
+main .jumbotron {
+    padding-top: 102px;
+    position: relative;
+    top: 80px;
+}
+
+main .jumbotron h1 {
+    margin-bottom: 70px;
+}
+
+main .jumbotron .jumbo-textbox {
+    max-width: 30%;
+    padding-right: 20px;
+}
+
+main .jumbotron .jumbo-img-box {
+    max-width: 70%;
+}
+
+main .jumbotron .jumbo-img-box img {
+    width: 100%;
+}
+
+main .jumbotron .jumbo-textbox .btn {
+    margin: 30px 0;
+}
+
+main .jumbotron .jumbo-textbox .arrow-down {
+    margin: 80px 0 85px;
+}
+
 
 /* Section: Business plans */
 
@@ -440,8 +443,8 @@ main .section-partnercompanies .logo-banner {
 }
 
 main .section-partnercompanies .logo-banner .company-logos {
-    width: 34vw;
-    height: 34vw;
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
     flex-wrap: wrap;
     flex-shrink: 0;
 }
@@ -498,7 +501,7 @@ main .section-partnercompanies .featured-company {
     flex-grow: 1;
     padding: 40px 50px;
     overflow-y: scroll;
-    height: 34vw;
+    height: calc(100vw / 3);
 }
 
 main .section-partnercompanies .featured-company .featured-logo {
