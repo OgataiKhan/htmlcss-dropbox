@@ -1,0 +1,22 @@
+main {
+    padding-top: 182px;
+    padding-bottom: 150px;
+}
+
+main h1 {
+    margin-bottom: 70px;
+}
+
+main input[type="text"], 
+main input[type="email"], 
+main input[type="submit"] {
+    display: block;
+}
+
+main input[type="text"] {
+    margin-bottom: 6px;
+}
+
+main input[type="submit"] {
+    margin-top: 16px;
+}
