@@ -587,6 +587,38 @@ main .section-freetrial .btn {
     max-width: 20%;
 }
 
+/* Section: FAQ */
+
+main .section-faq {
+    padding: 164px 0 150px;
+}
+
+main .section-faq h2 {
+    margin-bottom: 72px;
+}
+
+main .section-faq .faq-item .faq-question {
+    padding: 44px 0;
+    justify-content: space-between;
+}
+
+main .section-faq .faq-item .faq-question i {
+    margin-right: 45px;
+}
+
+main .section-faq .faq-item p {
+    margin-bottom: 44px;
+    display: none;
+}
+
+main .section-faq .faq-item:hover p {
+    display: block;
+}
+
+main .section-faq .faq-item:hover i {
+    transform: rotate(0.5turn);
+}
+
 /* #endregion */
 
 /* 
