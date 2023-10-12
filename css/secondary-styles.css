@@ -8,7 +8,7 @@ main h1 {
 }
 
 main input[type="text"], 
-main input[type="email"], 
+main input[type="password"], 
 main input[type="submit"] {
     display: block;
 }
